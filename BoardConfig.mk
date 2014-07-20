@@ -25,6 +25,8 @@ TARGET_BOARD_OMAP_CPU := 4470
 TARGET_KERNEL_SOURCE := kernel/amazon/bowser-common
 TARGET_KERNEL_CONFIG := jem_android_defconfig
 BOARD_KERNEL_CMDLINE := mem=1G console=/dev/null rootdelay=2 init=/init androidboot.console=ttyO2 androidboot.hardware=bowser androidboot.selinux=permissive
+TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_GCC_VERSION_AND := 4.7-sm
 
 # External SGX Module
 SGX_MODULES:
